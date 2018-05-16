@@ -1,0 +1,471 @@
+<DatasheetFeed>
+	<Datasheet>
+		<InformationFromExportingSystem>
+			<DateGeneratedExport>2016-11-30</DateGeneratedExport>
+			<NameOfExportingSystem>DoPCreator</NameOfExportingSystem>
+		</InformationFromExportingSystem>
+		<HarmonizedStandard>
+			<TechnicalStandard>EN 1304</TechnicalStandard>
+			<OriginalDocument url="http://www.linktostandard.org">EN 1304 ZA2.pdf</OriginalDocument>
+			<ProductType>clay roofing tiles and fittings</ProductType>
+			<IntendedUses>
+				<IntendedUse>
+					<FullName>as roof coverings for all other uses</FullName>
+					<AVCPs>
+						<AVCPSystemName>
+							<FullText>System 4</FullText>
+						</AVCPSystemName>
+					</AVCPs>
+				</IntendedUse>
+				<IntendedUse>
+					<FullName>as internal or external finishes in walls or ceilings for all other uses mentioned in the mandate</FullName>
+					<AVCPs>
+						<AVCPSystemName>
+							<FullText>System 4</FullText>
+						</AVCPSystemName>
+					</AVCPs>
+				</IntendedUse>
+				<IntendedUse>
+					<FullName>as internal or external finishes in walls or ceilings, as relevant, subject to regulations on dangerous substances</FullName>
+					<AVCPs>
+						<AVCPSystemName>
+							<FullText>System 3</FullText>
+						</AVCPSystemName>
+					</AVCPs>
+				</IntendedUse>
+				<IntendedUse>
+					<FullName>as roof coverings subject to regulations on dangerous substances</FullName>
+					<AVCPs>
+						<AVCPSystemName>
+							<FullText>System 3</FullText>
+						</AVCPSystemName>
+					</AVCPs>
+				</IntendedUse>
+				<IntendedUse>
+					<FullName>as roof coverings subject to external fire performance regulations</FullName>
+					<AVCPs>
+						<AVCPSystemName>
+							<FullText>System 3</FullText>
+						</AVCPSystemName>
+						<AVCPSystemName>
+							<FullText>System 4</FullText>
+						</AVCPSystemName>
+					</AVCPs>
+				</IntendedUse>
+				<IntendedUse>
+					<FullName>as roofing covering subject to reaction to fire regulations</FullName>
+					<AVCPs>
+						<AVCPSystemName>
+							<FullText>System 1</FullText>
+						</AVCPSystemName>
+						<AVCPSystemName>
+							<FullText>System 3</FullText>
+						</AVCPSystemName>
+						<AVCPSystemName>
+							<FullText>System 4</FullText>
+						</AVCPSystemName>
+					</AVCPs>
+				</IntendedUse>
+				<IntendedUse>
+					<FullName>as internal or external finishes in walls or ceilings subject to reaction to fire regulations</FullName>
+					<AVCPs>
+						<AVCPSystemName>
+							<FullText>System 1</FullText>
+						</AVCPSystemName>
+						<AVCPSystemName>
+							<FullText>System 3</FullText>
+						</AVCPSystemName>
+						<AVCPSystemName>
+							<FullText>System 4</FullText>
+						</AVCPSystemName>
+					</AVCPs>
+				</IntendedUse>
+			</IntendedUses>
+			<ReferenceLetters>
+				<ReferenceLetter>A</ReferenceLetter>
+			</ReferenceLetters>
+		</HarmonizedStandard>
+		<DeclaredPerformance>
+			<HenReference>EN 1304</HenReference>
+			<EssentialCharacteristic>
+				<Guid/>
+				<ShortName/>
+				<FullName>Mechanical resistance</FullName>
+				<Property>
+					<Guid/>
+					<ShortName/>
+					<FullName>flexural strength</FullName>
+					<Definition/>
+					<Measure>
+						<Guid/>
+						<ShortName/>
+						<FullName>flexural strength according to EN 538</FullName>
+						<Definition/>
+						<ReferenceStandard>
+							<Guid/>
+							<ShortName>EN 538</ShortName>
+							<FullName>EN 538 - clay roofing tiles for discontinuous laying -flexural strength test</FullName>
+							<Definition>this european standard describes the test method used to evaluate the flexural strength of clay roofing tiles</Definition>
+						</ReferenceStandard>
+						<Unit>
+							<Guid/>
+							<ShortName/>
+							<FullName>Unitless</FullName>
+							<Definition/>
+							<Values>
+								<Value>pass</Value>
+								<Value>fail</Value>
+							</Values>
+						</Unit>
+					</Measure>
+				</Property>
+			</EssentialCharacteristic>
+			<EssentialCharacteristic>
+				<Guid/>
+				<ShortName/>
+				<FullName>External fire performance</FullName>
+				<Property>
+					<Guid/>
+					<ShortName/>
+					<FullName>external fire performance</FullName>
+					<Definition/>
+					<Measure>
+						<Guid/>
+						<ShortName/>
+						<FullName>external fire performance according to EN 13501-5</FullName>
+						<Definition/>
+						<ReferenceStandard>
+							<Guid/>
+							<ShortName>EN 13501-5</ShortName>
+							<FullName>EN 13501-5 - fire classification of construction products and building elements - part 5: classification using data from external fire exposure to roofs tests</FullName>
+							<Definition>this european standard provides the fire performance classification procedures for roofs/roof coverings exposed to external fire based on the four test methods given in ENV 1187:2002 and the relevant extended application rules</Definition>
+						</ReferenceStandard>
+						<Unit>
+							<Guid/>
+							<ShortName/>
+							<FullName>Unitless</FullName>
+							<Definition/>
+							<Values>
+								<Value>BROOF</Value>
+								<Value>CROOF</Value>
+								<Value>DROOF</Value>
+								<Value>EROOF</Value>
+								<Value>FROOF</Value>
+							</Values>
+						</Unit>
+					</Measure>
+				</Property>
+			</EssentialCharacteristic>
+			<EssentialCharacteristic>
+				<Guid/>
+				<ShortName/>
+				<FullName>Reaction to fire</FullName>
+				<Property>
+					<Guid/>
+					<ShortName/>
+					<FullName>reaction to fire</FullName>
+					<Definition/>
+					<Measure>
+						<Guid/>
+						<ShortName/>
+						<FullName>reaction to fire classification of construction products and building elements according to EN 13501-1</FullName>
+						<Definition/>
+						<ReferenceStandard>
+							<Guid/>
+							<ShortName>EN 13501-5</ShortName>
+							<FullName>EN 13501-1 - fire classification of construction products and building elements - part 1: classification using data from reaction to fire tests</FullName>
+							<Definition>this european standard provides the reaction to fire classification procedure for all construction products, including products incorporated within building elements. products are considered in relation to their end use application. this document applies to three categories, which are treated separately in this european standard: - construction products, excluding floorings and linear pipe thermal insulation products; - floorings; - linear pipe thermal insulation products</Definition>
+						</ReferenceStandard>
+						<Unit>
+							<Guid/>
+							<ShortName/>
+							<FullName>Unitless</FullName>
+							<Definition/>
+							<Values>
+								<Value>A1</Value>
+								<Value>A2-s1,d0</Value>
+								<Value>A2-s1,d1</Value>
+								<Value>A2-s2,d0</Value>
+								<Value>A2-s2,d1</Value>
+								<Value>A2-s2,d2</Value>
+								<Value>A2-s3,d0</Value>
+								<Value>A2-s3,d1</Value>
+								<Value>A2-s3,d2</Value>
+								<Value>B-s1,d0</Value>
+								<Value>B-s1,d1</Value>
+								<Value>B-s1,d2</Value>
+								<Value>B-s2,d0</Value>
+								<Value>B-s2,d1</Value>
+								<Value>B-s2,d2</Value>
+								<Value>B-s3,d0</Value>
+								<Value>B-s3,d1</Value>
+								<Value>B-s3,d2</Value>
+								<Value>C-s1,d0</Value>
+								<Value>C-s1,d1</Value>
+								<Value>C-s1,d2</Value>
+								<Value>C-s2,d0</Value>
+								<Value>C-s2,d1</Value>
+								<Value>C-s2,d2</Value>
+								<Value>C-s3,d0</Value>
+								<Value>C-s3,d1</Value>
+								<Value>C-s3,d2</Value>
+								<Value>D-s1,d0</Value>
+								<Value>D-s1,d1</Value>
+								<Value>D-s1,d2</Value>
+								<Value>D-s2,d0</Value>
+								<Value>D-s2,d1</Value>
+								<Value>D-s2,d2</Value>
+								<Value>D-s3,d0</Value>
+								<Value>D-s3,d1</Value>
+								<Value>D-s3,d2</Value>
+								<Value>E</Value>
+								<Value>E-d2</Value>
+								<Value>F</Value>
+							</Values>
+						</Unit>
+					</Measure>
+				</Property>
+			</EssentialCharacteristic>
+			<EssentialCharacteristic>
+				<Guid/>
+				<ShortName/>
+				<FullName>water impermeability</FullName>
+				<Property>
+					<Guid/>
+					<ShortName/>
+					<FullName>water impermeability</FullName>
+					<Definition/>
+					<Measure>
+						<Guid/>
+						<ShortName/>
+						<FullName>impermeability factor according to EN 539-1</FullName>
+						<Definition/>
+						<ReferenceStandard>
+							<Guid/>
+							<ShortName>EN 539-1</ShortName>
+							<FullName>EN 539-1 - clay roofing tiles for discontinuous laying - determination of physical characteristics - part 1: impermeability test</FullName>
+							<Definition>this european standard describes two test methods for testing the impermeability to water of clay roof tiles and fittings which can be considered as equivalent</Definition>
+						</ReferenceStandard>
+						<Unit>
+							<Guid/>
+							<ShortName/>
+							<FullName>Unitless</FullName>
+							<Definition/>
+							<Values>
+								<Value>category 1</Value>
+								<Value>category 2</Value>
+							</Values>
+						</Unit>
+					</Measure>
+					<Measure>
+						<Guid/>
+						<ShortName/>
+						<FullName>impermeability coefficient according to EN 539-1</FullName>
+						<Definition/>
+						<ReferenceStandard>
+							<Guid/>
+							<ShortName>EN 539-1</ShortName>
+							<FullName>EN 539-1 - clay roofing tiles for discontinuous laying - determination of physical characteristics - part 1: impermeability test</FullName>
+							<Definition>this european standard describes two test methods for testing the impermeability to water of clay roof tiles and fittings which can be considered as equivalent</Definition>
+						</ReferenceStandard>
+						<Unit>
+							<Guid/>
+							<ShortName/>
+							<FullName>Unitless</FullName>
+							<Definition/>
+							<Values>
+								<Value>category 1</Value>
+								<Value>category 2</Value>
+							</Values>
+						</Unit>
+					</Measure>
+				</Property>
+			</EssentialCharacteristic>
+			<EssentialCharacteristic>
+				<Guid/>
+				<ShortName/>
+				<FullName>dimensions and dimension tolerances</FullName>
+				<Property>
+					<Guid/>
+					<ShortName/>
+					<FullName>dimensional tolerance</FullName>
+					<Definition/>
+					<Measure>
+						<Guid/>
+						<ShortName/>
+						<FullName>dimensional tolerance according to EN 1024</FullName>
+						<Definition/>
+						<ReferenceStandard>
+							<Guid/>
+							<ShortName>EN 1024</ShortName>
+							<FullName>EN 1024 - clay roofing tiles for discontinuous laying - determination of geometric characteristics</FullName>
+							<Definition>this european standard specifies the methods for determining the geometric characteristics of clay tiles as defined in EN 1304</Definition>
+						</ReferenceStandard>
+						<Unit>
+							<Guid/>
+							<ShortName/>
+							<FullName>Unitless</FullName>
+							<Definition/>
+							<Values>
+								<Value>pass</Value>
+								<Value>fail</Value>
+							</Values>
+						</Unit>
+					</Measure>
+				</Property>
+			</EssentialCharacteristic>
+			<EssentialCharacteristic>
+				<Guid/>
+				<ShortName/>
+				<FullName>durability</FullName>
+				<Property>
+					<Guid/>
+					<ShortName/>
+					<FullName>freeze-thaw resistance</FullName>
+					<Definition/>
+					<Measure>
+						<Guid/>
+						<ShortName/>
+						<FullName>frost resistance according to EN 539-2</FullName>
+						<Definition/>
+						<ReferenceStandard>
+							<Guid/>
+							<ShortName>EN 539-2</ShortName>
+							<FullName>EN 539-2 - clay roofing tiles for discontinuous laying - determination of physical characteristics - part 2: test for frost resistance</FullName>
+							<Definition>this european standard specifies the test method for the determination of frost resistance of clay roofing tiles and fittings</Definition>
+						</ReferenceStandard>
+						<Unit>
+							<Guid/>
+							<ShortName/>
+							<FullName>Unitless</FullName>
+							<Definition/>
+							<Values>
+								<Value>level 1(150 cycles)</Value>
+								<Value>level 1(90 cycles)</Value>
+								<Value>level 1(30 cycles)</Value>
+							</Values>
+						</Unit>
+					</Measure>
+				</Property>
+			</EssentialCharacteristic>
+			<EssentialCharacteristic>
+				<Guid/>
+				<ShortName/>
+				<FullName>release of regulated substances</FullName>
+				<Property>
+					<Guid/>
+					<ShortName/>
+					<FullName>release of dangerous substances</FullName>
+					<Definition/>
+					<Measure>
+						<Guid/>
+						<ShortName/>
+						<FullName>release of dangerous substances according to EN 1304</FullName>
+						<Definition/>
+						<ReferenceStandard>
+							<Guid/>
+							<ShortName>EN 1304</ShortName>
+							<FullName>EN 1304 clay roofing tiles and fittings - product definitions and specifications</FullName>
+							<Definition>this european standard specifies requirements for clay roofing tiles and fittings for pitched roof coverings and wall cladding and lining</Definition>
+						</ReferenceStandard>
+						<Unit>
+							<Guid/>
+							<ShortName/>
+							<FullName>Unitless</FullName>
+							<Definition/>
+							<Values>
+								<Value>True</Value>
+								<Value>False</Value>
+							</Values>
+						</Unit>
+					</Measure>
+				</Property>
+			</EssentialCharacteristic>
+			<EssentialCharacteristic>
+				<Guid/>
+				<ShortName/>
+				<FullName>water impermeability</FullName>
+				<Property>
+					<Guid/>
+					<ShortName/>
+					<FullName>water impermeability</FullName>
+					<Definition/>
+					<Measure>
+						<Guid/>
+						<ShortName/>
+						<FullName>impermeability factor according to EN 539-1</FullName>
+						<Definition/>
+						<ReferenceStandard>
+							<Guid/>
+							<ShortName>EN 539-1</ShortName>
+							<FullName>EN 539-1 - clay roofing tiles for discontinuous laying - determination of physical characteristics - part 1: impermeability test</FullName>
+							<Definition>this european standard describes two test methods for testing the impermeability to water of clay roof tiles and fittings which can be considered as equivalent</Definition>
+						</ReferenceStandard>
+						<Unit>
+							<Guid/>
+							<ShortName/>
+							<FullName>Unitless</FullName>
+							<Definition/>
+							<Values>
+								<Value>category 1</Value>
+								<Value>category 2</Value>
+							</Values>
+						</Unit>
+					</Measure>
+					<Measure>
+						<Guid/>
+						<ShortName/>
+						<FullName>impermeability coefficient according to EN 539-1</FullName>
+						<Definition/>
+						<ReferenceStandard>
+							<Guid/>
+							<ShortName>EN 539-1</ShortName>
+							<FullName>EN 539-1 - clay roofing tiles for discontinuous laying - determination of physical characteristics - part 1: impermeability test</FullName>
+							<Definition>this european standard describes two test methods for testing the impermeability to water of clay roof tiles and fittings which can be considered as equivalent</Definition>
+						</ReferenceStandard>
+						<Unit>
+							<Guid/>
+							<ShortName/>
+							<FullName>Unitless</FullName>
+							<Definition/>
+							<Values>
+								<Value>category 1</Value>
+								<Value>category 2</Value>
+							</Values>
+						</Unit>
+					</Measure>
+				</Property>
+				<!-- 
+        This is just an extra property to show example where the measure is not "unitless" where the underlying units are represented as predefined value(s) 
+        The Technical standard EN 1304, used as the example here only have predefined values, which is not the normal case.
+        -->
+				<Property>
+					<Guid/>
+					<ShortName/>
+					<FullName>Example property</FullName>
+					<Definition/>
+					<Measure>
+						<Guid/>
+						<ShortName/>
+						<FullName>test of example property according to EN test-1</FullName>
+						<Definition/>
+						<ReferenceStandard>
+							<Guid/>
+							<ShortName>EN test-1</ShortName>
+							<FullName>EN test-1 - determination of whether a value of a property is considered a test</FullName>
+							<Definition>a test definition</Definition>
+						</ReferenceStandard>
+						<Unit>
+							<Guid/>
+							<ShortName>m2</ShortName>
+							<FullName>square meter</FullName>
+							<Definition/>
+							<Values/>
+						</Unit>
+					</Measure>
+				</Property>
+				<!-- End example -->
+			</EssentialCharacteristic>
+		</DeclaredPerformance>
+	</Datasheet>
+</DatasheetFeed>

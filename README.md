@@ -4,3 +4,5 @@ This official repository is maintained by the Community around the ProductRoom o
 
 ### Product data template (PDT) and product data sheets (PDS)
 System to describe product data templates and product data sheets with IFC (ISO 16739).
+
+This is ongoing work within the working group of buildingSMART International. Please do not use in production yet.
