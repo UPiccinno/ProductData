@@ -21,3 +21,4 @@ script:
   - rm ifcXML4.xsd 
   - rm IFC4_ADD1.xsd
   - rm IFC4_ADD2.xsd
+  
