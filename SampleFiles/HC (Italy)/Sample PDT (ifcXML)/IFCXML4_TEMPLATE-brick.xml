@@ -3,7 +3,7 @@
 <ifcXML xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2 file:/C:/Users/piccinno/Desktop/TC442_WG2_IFCXML/00-IFCXML/00-SCHEMA_IFCXML/IFC4_ADD2-schema.xsd">
+ xsi:schemaLocation="https://github.com/buildingSMART/ProductData/blob/master/SampleFiles/IFC4_ADD2.xsd">
 
  <!-- header - Start  -->
  <header>
@@ -19,7 +19,7 @@
  <!-- header - End  -->
 
  <!-- Manufacturer - Start  -->
- <IfcOrganization Name="Produttore" Description="Stabilimento produttivo"  href="link to DoP1.JPG">
+ <IfcOrganization Name="Produttore" Description="Stabilimento produttivo"  href="https://harpaceasitaly-my.sharepoint.com/:f:/g/personal/piccinno_harpaceas_it/Ejs7dksnGldOgSe7S9k9xJMB1p-yWQvEJlkBYyO6qInA9A?e=McmAyV/DoP1.JPG">
   <Addresses>
    <IfcPostalAddress>
     <AddressLines>
@@ -405,8 +405,10 @@
          </IfcSimplePropertyTemplate>
          <IfcSimplePropertyTemplate Name="Valore Medio" id="idTP6">
           <Enumerators>
-          <!-- Inserire operatore maggiore/uguale  -->
-           <EnumerationValues><IfcLengthMeasure-wrapper>40</IfcLengthMeasure-wrapper></EnumerationValues>
+           <EnumerationValues>
+            <IfcLabel-wrapper> &gt;= </IfcLabel-wrapper>
+            <IfcLengthMeasure-wrapper>40</IfcLengthMeasure-wrapper>
+           </EnumerationValues>
            <Unit><IfcSIUnit ref="id02"/></Unit>
           </Enumerators></IfcSimplePropertyTemplate>
          <IfcSimplePropertyTemplate Name="Direzione di carico" id="idTP7">
@@ -445,7 +447,10 @@
         <HasPropertyTemplates>
          <IfcSimplePropertyTemplate Name="Stabilità dimensionale" Description="Spostamento dovuto all'umidità" id="idTP9" GlobalId="0ME3R5NET1rwM2mEToEDc2"> 
           <Enumerators>
-           <EnumerationValues><IfcLengthMeasure-wrapper>0.500</IfcLengthMeasure-wrapper></EnumerationValues>
+           <EnumerationValues>
+            <IfcLabel-wrapper> &lt;= </IfcLabel-wrapper>
+            <IfcLengthMeasure-wrapper>0.500</IfcLengthMeasure-wrapper>
+           </EnumerationValues>
            <Unit>
             <IfcDerivedUnit ref="idCM2">
              <Elements>
@@ -480,20 +485,26 @@
          <IfcSimplePropertyTemplate Name="Percentuale dei vuoti" id="idTP13" GlobalId="14tIoDLgb2bx5U8KsJeDvJ">
           <Enumerators>
            <EnumerationValues>
-            <IfcNumericMeasure-wrapper>0.32</IfcNumericMeasure-wrapper>
-            <!-- Indicare che è una percentuale  -->
+            <IfcNumericMeasure-wrapper>32</IfcNumericMeasure-wrapper>
+            <IfcLabel-wrapper> &#37; </IfcLabel-wrapper>
            </EnumerationValues>
           </Enumerators>
          </IfcSimplePropertyTemplate>
          <IfcSimplePropertyTemplate Name="Spessore minimo setti esterni" id="idTP14" GlobalId="2azhlnHxHEORQ8y0ZS2Og2"> 
           <Enumerators>
-           <EnumerationValues><IfcLengthMeasure-wrapper>15.00</IfcLengthMeasure-wrapper></EnumerationValues>
+           <EnumerationValues>
+            <IfcLabel-wrapper> &gt;= </IfcLabel-wrapper>
+            <IfcLengthMeasure-wrapper>15.00</IfcLengthMeasure-wrapper>
+           </EnumerationValues>
            <Unit><IfcSIUnit ref="mm"/></Unit>
           </Enumerators>
          </IfcSimplePropertyTemplate>
          <IfcSimplePropertyTemplate Name="Spessore minimo setti interni" id="idTP15"> 
           <Enumerators>
-           <EnumerationValues><IfcLengthMeasure-wrapper>7.00</IfcLengthMeasure-wrapper></EnumerationValues>
+           <EnumerationValues>
+            <IfcLabel-wrapper> &gt;= </IfcLabel-wrapper>
+            <IfcLengthMeasure-wrapper>7.00</IfcLengthMeasure-wrapper>
+           </EnumerationValues>
            <Unit><IfcSIUnit ref="mm"/></Unit>
           </Enumerators>
          </IfcSimplePropertyTemplate>
@@ -518,9 +529,9 @@
          </IfcSimplePropertyTemplate>
          <IfcSimplePropertyTemplate Name="Assorbimento acqua" id="idTP19">
           <Enumerators>
-           <EnumerationValues>
-            <IfcNumericMeasure-wrapper>0.06</IfcNumericMeasure-wrapper>
-            <!-- Indicare che è una percentuale, aggiungere minore/uguale  -->
+           <EnumerationValues> 
+            <IfcNumericMeasure-wrapper>6</IfcNumericMeasure-wrapper>
+            <IfcLabel-wrapper> &#37; </IfcLabel-wrapper>
            </EnumerationValues>
           </Enumerators>
          </IfcSimplePropertyTemplate>
@@ -843,5 +854,53 @@
   </Declares>
  </IfcProjectLibrary>
  <!-- Project Library - End  -->
+ 
+ <!-- Table-TEST, non è una entità che può essere contenuta in ProjectLibrary  -->
+ 
 
+ <IfcTable Name="Dimensioni e tolleranze" >
+  <Rows>
+   <IfcTableRow pos="1">
+    <RowCells>
+     <IfcLabel-wrapper>Lunghezza</IfcLabel-wrapper>
+     <IfcLabel-wrapper>mm</IfcLabel-wrapper>
+     <IfcLengthMeasure-wrapper>280</IfcLengthMeasure-wrapper>
+     <IfcLabel-wrapper>T2</IfcLabel-wrapper>
+     <IfcLabel-wrapper>R2</IfcLabel-wrapper>
+    </RowCells>
+   </IfcTableRow>
+   <IfcTableRow pos="2">
+    <RowCells>
+     <IfcLabel-wrapper>Larghezza</IfcLabel-wrapper>
+     <IfcLabel-wrapper>mm</IfcLabel-wrapper>
+     <IfcLengthMeasure-wrapper>135</IfcLengthMeasure-wrapper>
+     <IfcLabel-wrapper>T2</IfcLabel-wrapper>
+     <IfcLabel-wrapper>R2</IfcLabel-wrapper>
+    </RowCells>
+   </IfcTableRow>
+   <IfcTableRow pos="3">
+    <RowCells>
+     <IfcLabel-wrapper>Altezza</IfcLabel-wrapper>
+     <IfcLabel-wrapper>mm</IfcLabel-wrapper>
+     <IfcLengthMeasure-wrapper>72</IfcLengthMeasure-wrapper>
+     <IfcLabel-wrapper>T2</IfcLabel-wrapper>
+     <IfcLabel-wrapper>R2</IfcLabel-wrapper>
+    </RowCells>
+   </IfcTableRow>
+  </Rows>
+  <Columns>
+   <IfcTableColumn Name="Nome" pos="1">
+   </IfcTableColumn>
+   <IfcTableColumn Name="Unità" pos="2">
+   </IfcTableColumn>
+   <IfcTableColumn Name="Dimensione" pos="3">
+   </IfcTableColumn>
+   <IfcTableColumn Name="Tolleranza" pos="4">
+   </IfcTableColumn>
+   <IfcTableColumn Name="Campo" pos="5">
+   </IfcTableColumn>
+  </Columns>
+ </IfcTable>
+ <!-- Table-TEST  -->
+ 
  </ifcXML>
