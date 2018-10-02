@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XSL-DEF/IFCXML4_TMP-brick.xsl"?>
 <ifcXML xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -794,7 +795,7 @@
      </IfcPropertySetTemplate>
      <!-- Bricks' stacking - End  -->
  
-     <!-- Voce di capitolato - Start  -->     
+     <!-- Specification - Start  -->     
      <IfcPropertySetTemplate Name="Voce di Capitolato - Muratura portante armo-confinata antisismica a faccia-vista" Description="Fornitura e posa in opera di mattoni in laterizio semipieni estrusi tipo ARMALATER aventi le seguenti prestazioni minime">
       <HasPropertyTemplates>
        <IfcComplexPropertyTemplate Name="Dimensioni" ref="idTP39" id="idTP40">
@@ -817,16 +818,15 @@
      </IfcPropertySetTemplate>
      
      <IfcPropertySetTemplate Name="Voce di Capitolato - Muratura portante armo-confinata antisismica a faccia-vista"
-      Description="La posa in opera dovrà essere effettuata mediante la sovrapposizione degli elementi in disposizione esclusivamente a due teste con tessitura di tipo Gotica o a Chiave. Ogni fila di mattoni sarà legata mediante:">
+                             Description="La posa in opera dovrà essere effettuata mediante la sovrapposizione degli elementi in disposizione esclusivamente a due teste con tessitura di tipo Gotica o a Chiave. Ogni fila di mattoni sarà legata mediante:">
       <HasPropertyTemplates>
        <IfcComplexPropertyTemplate>
         <HasPropertyTemplates>
          <IfcSimplePropertyTemplate Name="Iniezione di" ref="idTP29" Description="nei fori predisposti per l'inserimento delle micro armature in acciaio" id="idTP47">
-         <!-- Verificare riferimento -->
+         <!-- check reference -->
          </IfcSimplePropertyTemplate>
          <IfcSimplePropertyTemplate Name="Giunti orizzontali realizzati con corsi di malta strutturale Classe M10, in conformità al D.M. 17/01/2018, avente resistenza media a compressione >" id="idTP48">
           <Enumerators>
-          <!-- Verificare maggiore -->
            <EnumerationValues><IfcPressureMeasure-wrapper>10</IfcPressureMeasure-wrapper></EnumerationValues>
            <Unit><IfcSIUnit ref="id02"/></Unit>
           </Enumerators>
@@ -842,15 +842,13 @@
       </HasPropertyTemplates>
      </IfcPropertySetTemplate>
     
-     <IfcPropertySetTemplate
-      Name="Voce di Capitolato - Muratura portante armo-confinata antisismica a faccia-vista"
-      Description="Le armature verticali continue verranno disposte in conformità al D.M. 17/01/2018 mediante la fornitura e posa in opera di:">
+     <IfcPropertySetTemplate Name="Voce di Capitolato - Muratura portante armo-confinata antisismica a faccia-vista"
+                             Description="Le armature verticali continue verranno disposte in conformità al D.M. 17/01/2018 mediante la fornitura e posa in opera di:">
       <HasPropertyTemplates>
        <IfcComplexPropertyTemplate>
         <HasPropertyTemplates>
-         <IfcSimplePropertyTemplate Name="Calandri fiduciari nodali tralicciati in acciaio B450C" Description="da disporre nei nodi angolari ed ortogonali delle pareti portanti" id="idTP50"></IfcSimplePropertyTemplate>
+         <IfcSimplePropertyTemplate Name="Calandri fiduciari nodali tralicciati in acciaio B450C" Description="da disporre nei nodi angolari ed ortogonali delle pareti portanti" id="idTP50"/>
          <IfcSimplePropertyTemplate Name="barre integrative in acciaio B450C, diametro" Description="da disporre a distanza ≤ m 4 da ciascuna armatura verticale continua" id="idTP51">
-          <!-- Verificare minore/uguale -->
           <Enumerators>
            <EnumerationValues><IfcLengthMeasure-wrapper>16</IfcLengthMeasure-wrapper></EnumerationValues>
            <Unit><IfcSIUnit ref="id00"/></Unit>
@@ -860,30 +858,33 @@
        </IfcComplexPropertyTemplate>
       </HasPropertyTemplates>
      </IfcPropertySetTemplate>
-     <!-- Voce di Capitolato - End  -->
+     <!-- Specification - End  -->
 
      <!-- Technical Specification - Start  -->
          <IfcSimplePropertyTemplate Name="Prospetto"
-          Description="Il sistema prevede l’inserimento di un micro armatura diffusa rappresentata da spinotti (tondini di acciaio nervato) inseriti ogni due file di mattoni
-          in maniera predeterminata nelle forature dei mattoni stessi con funzione anti scorrimento, andando a creare una connessione di tipo verticale sfalsata per ciascun corso e nello stesso tempo concatenante i
-          mattoni del corso inferiore con quelli del corso superiore." href="link to Descriz_breve1.JPG"
-          id="idTP52"/>
+                                    Description="Il sistema prevede l’inserimento di un micro armatura diffusa rappresentata da spinotti (tondini di acciaio nervato) inseriti ogni due file di mattoni
+                                    in maniera predeterminata nelle forature dei mattoni stessi con funzione anti scorrimento, andando a creare una connessione di tipo verticale sfalsata per ciascun corso e nello stesso tempo concatenante i
+                                    mattoni del corso inferiore con quelli del corso superiore." href="link to Descriz_breve1.JPG"
+                                    id="idTP52"/>
          
          <IfcSimplePropertyTemplate Name="Sezioni primo e secondo corso di mattoni"
-          Description="Questa tecnica si differenzia dalle altre note poiché non adotta il sistema rappresentato da una continuità
-          di ciascun tondo di acciaio che attraversa la muratura stessa da un solaio all’altro e non utilizza armature di tipo orizzontale aggiuntive in quanto i vincoli che si creano tra i vari corsi attraverso 
-          il sistema di diffusione sfalsata sono sufficienti ad assicurare il collegamento tra tutte le file di mattoni."
-          href="link to Descriz_breve2.JPG" id="idTP53"/> 
+                                    Description="Questa tecnica si differenzia dalle altre note poiché non adotta il sistema rappresentato da una continuità
+                                    di ciascun tondo di acciaio che attraversa la muratura stessa da un solaio all’altro e non utilizza armature di tipo orizzontale aggiuntive in quanto i vincoli che si creano tra i vari corsi attraverso 
+                                    il sistema di diffusione sfalsata sono sufficienti ad assicurare il collegamento tra tutte le file di mattoni."
+                                    href="link to Descriz_breve2.JPG"
+                                    id="idTP53"/> 
          
          <IfcSimplePropertyTemplate Name="Sezioni zona angolo primo e secondo corso di mattoni"
-          Description="Il sistema infine prevede, solo nelle zone d’angolo, dei cosiddetti “calandri fiduciari angolari” con funzione
-          di collegamento a cerniera delle murature ortogonali, formati da un doppio traliccio elettrosaldato fissato su una piastra d’acciaio."
-          href="link to Descriz_breve3.JPG" id="idTP54"/> 
+                                    Description="Il sistema infine prevede, solo nelle zone d’angolo, dei cosiddetti “calandri fiduciari angolari” con funzione
+                                    di collegamento a cerniera delle murature ortogonali, formati da un doppio traliccio elettrosaldato fissato su una piastra d’acciaio."
+                                    href="link to Descriz_breve3.JPG" 
+                                    id="idTP54"/> 
          
          <IfcSimplePropertyTemplate Name="Calando fiduciario angolare"
-          Description="Il calandro verrà gettato (una volta ultimato il muro in elevazione) unitamente al cordolo di collegamento
-          ed al solaio che, con la sua funzione di diaframma rigido, renderà definito nella sua scatolarità il sistema."
-          href="link to Descriz_breve4.JPG" id="idTP55"/>
+                                    Description="Il calandro verrà gettato (una volta ultimato il muro in elevazione) unitamente al cordolo di collegamento
+                                    ed al solaio che, con la sua funzione di diaframma rigido, renderà definito nella sua scatolarità il sistema."
+                                    href="link to Descriz_breve4.JPG" 
+                                    id="idTP55"/>
          <!-- Technical Specification - End  -->      
       
     </RelatedDefinitions>
